@@ -1,0 +1,73 @@
+/* banner */
+.banner {
+  height: 500px;
+  background-color: #f5f5f5;
+}
+.banner .wrapper {
+  height: 500px;
+  background-color: pink;
+  overflow: hidden;
+  position: relative;
+}
+.banner .pic {
+  display: flex;
+  width: 3720px;
+}
+.subnav {
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.42);
+  position: absolute;
+}
+.subnav li {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 12px;
+  height: 50px;
+  /* background-color: pink; */
+  line-height: 50px;
+  cursor: pointer;
+}
+.subnav li a {
+  margin-right: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+.subnav li .upper {
+  margin-right: 14px;
+  font-size: 16px;
+}
+.subnav li:hover {
+  background-color: #00be9a;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: 42px;
+  background-color: pink;
+}
+.title .left {
+  display: flex;
+}
+.title .left h3 {
+    font-size: 30px;
+    margin-right: 35px;
+}
+.title .left p{
+    color: #a1a1a1; ;
+    align-self: flex-end;
+}
+.title .more {
+    color: #a1a1a1; ;
+    font-size: 12px;
+    line-height: 42px;
+}
+.bd ul{
+    display: flex;
+}
