@@ -50,24 +50,57 @@
   margin-top: 40px;
   margin-bottom: 30px;
   height: 42px;
-  background-color: pink;
+  /* background-color: pink; */
 }
 .title .left {
   display: flex;
 }
 .title .left h3 {
-    font-size: 30px;
-    margin-right: 35px;
+  font-size: 30px;
+  margin-right: 35px;
 }
-.title .left p{
-    color: #a1a1a1; ;
-    align-self: flex-end;
+.title .left p {
+  color: #a1a1a1;
+  align-self: flex-end;
 }
 .title .more {
-    color: #a1a1a1; ;
-    font-size: 12px;
-    line-height: 42px;
+  color: #a1a1a1;
+  font-size: 12px;
+  line-height: 42px;
 }
-.bd ul{
-    display: flex;
+.bd ul {
+  display: flex;
+  justify-content: space-between;
+}
+.bd li {
+  width: 304px;
+  height: 404px;
+  background-color: #eef9f4;
+}
+.bd li .pic {
+  width: 304px;
+  height: 304px;
+}
+.bd li .text {
+  text-align: center;
+}
+.bd li .text h4 {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.bd li .text p {
+  font-size: 18px;
+  color: red;
+}
+.bd li .text span {
+  font-size: 22px;
+  margin-left: 3px;
+}
+
+.recommend .bd li{
+    background: #fff;
+}
+.recommend .bd li .text p{
+    color: #a1a1a1;
 }
