@@ -98,9 +98,55 @@
   margin-left: 3px;
 }
 
-.recommend .bd li{
-    background: #fff;
+.recommend .bd li {
+  background: #fff;
 }
-.recommend .bd li .text p{
-    color: #a1a1a1;
+.recommend .bd li .text p {
+  color: #a1a1a1;
+}
+
+/* fresh */
+
+.fresh .title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.title .right {
+  display: flex;
+}
+.title .right ul {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 58px;
+}
+.title .right ul a {
+  margin-left: 6px;
+  height: 20px;
+  display: block;
+  padding: 0 7px;
+  line-height: 20px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content .left {
+  width: 248px;
+  height: 610px;
+  background-color: pink;
+}
+.content .right {
+  width: 968px;
+  height: 610px;
+  /* background-color: pink; */
+}
+.content .right ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .right li {
+  padding: 10px 21px 0;
+  width: 242px;
+  height: 305px;
+  border: 2px solid skyblue;
 }
